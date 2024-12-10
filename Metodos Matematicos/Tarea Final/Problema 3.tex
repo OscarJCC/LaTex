@@ -1,0 +1,217 @@
+\documentclass{article}
+
+
+\usepackage[sc]{mathpazo}
+\usepackage{tcolorbox}
+\usepackage[T1]{fontenc} 
+\linespread{1.22} % Line spacing - Palatino needs more space between lines
+\usepackage{microtype} % Slightly tweak font spacing for aesthetics
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+
+%\usepackage{multirow}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+%\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{amssymb}
+\usepackage{subfigure}
+\usepackage{wrapfig}
+\usepackage[siunitx]{circuitikz}
+\usepackage{pdfpages}
+\usepackage{verbatim}
+\usepackage{listings}
+\definecolor{miverde}{rgb}{0,0.6,0}
+\definecolor{migris}{rgb}{0.5,0.5,0.5}
+\definecolor{mimalva}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+\lstset{  %
+  backgroundcolor=\color{backcolour},
+  basicstyle=\footnotesize,
+  breakatwhitespace=false,
+  breaklines=true,
+  captionpos=t,
+  commentstyle=\color{miverde},
+  deletekeywords={...},
+  escapeinside={\%*}{*)},
+  extendedchars=true,
+  frame=single,	                   
+  keepspaces=true, 
+  keywordstyle=\color{blue},
+  language=Python,
+  numbers=left,                    
+  numbersep=5pt,
+  numberstyle=\small\color{migris}, 
+  rulecolor=\color{black},        
+  showspaces=false, 
+  showstringspaces=false, 
+  showtabs=false, 
+  stepnumber=2,
+  stringstyle=\color{mimalva},
+  tabsize=2,	
+  title=\lstname  
+}
+
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry} % Document margins
+\usepackage[hang, small,labelfont=bf,up,textfont=it,up]{caption} 
+\usepackage{booktabs}
+\usepackage{lettrine}
+\usepackage{enumitem} 
+\setlist[itemize]{noitemsep} 
+\usepackage{abstract}
+\renewcommand{\abstractnamefont}{\normalfont\bfseries} 
+\renewcommand{\abstracttextfont}{\normalfont\small\itshape}
+
+\usepackage{titlesec} 
+\renewcommand\thesection{\Roman{section}} 
+\renewcommand\thesubsection{\roman{subsection}} 
+\titleformat{\section}[block]{\large\scshape\centering}{\thesection.}{1em}{} 
+\titleformat{\subsection}[block]{\large}{\thesubsection.}{1em}{} 
+
+\usepackage{fancyhdr}
+\pagestyle{fancy} 
+\fancyhead{} 
+\fancyfoot{} 
+\fancyhead[L]{Problema 3} 
+\fancyhead[R]{ Mayo 2023 } 
+\fancyfoot[RO,LE]{\thepage}
+
+\usepackage{lipsum}
+\usepackage{titling} 
+\usepackage{algorithm2e}
+\usepackage{hyperref} \hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\begin{document}
+
+Ecuación de calor con frontera en estado no estacionario sobre un disco
+
+\begin{equation}
+\label{eq:1}
+\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \Psi}{\partial r}\right)+\frac{1}{r^2}\frac{\partial^2 \Psi}{\partial \phi^2}=\frac{1}{\alpha^2}\frac{\partial \Psi}{\partial t}
+\end{equation}
+C.F.:
+$$\Psi(r=0, \phi, t) = finito$$
+$$\Psi(r=a, \phi, t) = f(\phi)$$
+$$\Psi(r, \phi, t)=\Psi(r, \phi+2\pi, t)$$
+C.I.:
+$$\Psi(r, \phi, t=0)=g(r, \phi)$$
+
+Supongamos que $\Psi$ es una función de la forma:
+\begin{equation}
+\label{eq:2}
+\Psi(r, \phi, t)=\Psi_p(r, \phi, t) + \Psi_c(r, \phi)
+\end{equation}
+
+donde $\Psi_p$ es solución a la ecuación diferencial con condiciones de frontera homogéneas.
+
+Sustituyendo a la ec. \ref{eq:2} en la ec. \ref{eq:1}, obtenemos:
+\begin{equation*}
+\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \Psi_p}{\partial r}\right)+\frac{1}{r^2}\frac{\partial^2 \Psi_p}{\partial \phi^2}+\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \Psi_c}{\partial r}\right)+\frac{1}{r^2}\frac{\partial^2 \Psi_c}{\partial \phi^2}=\frac{1}{\alpha^2}\frac{\partial \Psi}{\partial t}
+\end{equation*}
+
+Por lo tanto:
+\begin{equation}
+\frac{1}{r}\frac{\partial}{\partial r}\left(r\frac{\partial \Psi_c}{\partial r}\right)+\frac{1}{r^2}\frac{\partial^2 \Psi_c}{\partial \phi^2}=0
+\end{equation}\label{eq:3}
+
+Cuya solución general es:
+\begin{equation}
+\label{eq:4}
+\Psi_c(r,\phi)=b_0 ln(r)+a_0+\sum_{n=1}^{\infty} (a_n r^n \cos(n\phi)+b_nr^n\sin(n\phi))+\sum_{n=1}^{\infty} (c_n r^{-n} \cos(n\phi)+d_nr^{-n}\sin(n\phi))
+\end{equation}
+
+Dadas las condiciones de frontera:
+$$\Psi(r=0, \phi, t)=\Psi_p(r=0, \phi, t)+\Psi_c(r=0, \phi)=finito$$
+dado que:
+$$\Psi_p(r=0, \phi, t)=finito$$
+$$\Rightarrow \Psi_c(r=0, \phi)=finito$$
+
+Esto hace que $\Psi_c$, sea
+\begin{equation*}
+\Psi_c(r,\phi)=a_0+\sum_{n=1}^{\infty} (a_n r^n \cos(n\phi)+b_nr^n\sin(n\phi))
+\end{equation*}
+
+Por la otra condición de frontera
+$$\Psi(r=a, \phi, t)=\Psi_p(r=a, \phi, t)+\Psi_c(r=a, \phi)=f(\phi)$$
+$$0+\Psi_c(r=a, \phi)=f(\phi)$$
+$$\Rightarrow a_0+\sum_{n=1}^{\infty} (a_n a^n \cos(n\phi)+b_na^n\sin(n\phi))=f(\phi)$$
+$$\Rightarrow A_0+\sum_{n=1}^{\infty} (A_n \cos(n\phi)+B_n\sin(n\phi))=f(\phi)$$
+$$ A_0 = a_0, \quad A_n = a_na^n, \quad B_n = b_n a^n$$
+$$ \quad a_n = \frac{A_n}{a^n}, \quad b_n = \frac{B_n}{a^n}$$
+
+$$\Rightarrow A_0+\sum_{n=1}^{\infty} \left(\frac{r}{a}\right)^n(A_n \cos(n\phi)+B_n\sin(n\phi))=f(\phi)$$
+de esto, al ser una serie de Fourier, los coeficientes son:
+$$A_0=\frac{1}{2\pi}\int_0^{2\pi}f(\phi)d\phi$$
+$$A_n=\frac{1}{\pi}\int_0^{2\pi} f(\phi)\cos(n\phi)d\phi$$
+$$B_n=\frac{1}{\pi}\int_0^{2\pi} f(\phi)\sin(n\phi)d\phi$$
+
+Teniendo esto, llegamos a que la solución completa y general para $\Psi$ es:
+\begin{tcolorbox}
+\begin{equation}
+\begin{split}
+\Psi(r,\phi,t)=&\sum_{n=1}^{\infty} \sum_{m=1}^{\infty} J_n(\lambda_{nm}r)[D_{nm}\cos(n\phi) + E_{nm} \sin(n\phi)]e^{-\lambda_{nm}^2 \alpha^2 t}\\
+&+\sum_{n=1}^{\infty} \left(\frac{r}{a}\right)^n(A_n \cos(n\phi)+B_n\sin(n\phi))+A_0
+\end{split}
+\end{equation}
+\end{tcolorbox}
+
+Por último, aplicando la C.I., $\Psi(r, \phi, t=0)=g(r, \phi)$
+\begin{equation}
+\begin{split}
+\Psi(r,\phi,t=0)=&\sum_{n=1}^{\infty} \sum_{m=1}^{\infty} D_{nm}\cos(n\phi)J_n(\lambda_{nm}r)\\
+&+\sum_{n=1}^{\infty} \sum_{m=1}^{\infty} E_{nm}\sin(n\phi)J_n(\lambda_{nm}r)\\
+&+\sum_{n=1}^{\infty} \left(\frac{r}{a}\right)^n (A_n \cos(n\phi)+B_n\sin(n\phi))+A_0=g(r,\phi)
+\end{split}
+\end{equation}
+$$\Rightarrow \sum_{n=1}^{\infty} \sum_{m=1}^{\infty} D_{nm}\cos(n\phi)J_n(\lambda_{nm}r)
++\sum_{n=1}^{\infty} \sum_{m=1}^{\infty} E_{nm}\sin(n\phi)J_n(\lambda_{nm}r)=g(r,\phi)-\Psi_c(r,\phi)$$
+
+$$\Rightarrow \sum_{n=1}^{\infty} \cos(n\phi)\sum_{m=1}^{\infty} D_{nm} J_n(\lambda_{nm}r)
++\sum_{n=1}^{\infty} \sin(n\phi) \sum_{m=1}^{\infty} E_{nm} J_n(\lambda_{nm}r)=g(r,\phi)-\Psi_c(r,\phi)$$
+
+$$\Rightarrow \sum_{n=1}^{\infty} \cos(n\phi)G_1(r)
++\sum_{n=1}^{\infty} \sin(n\phi)G_2(r)=g(r,\phi)-\Psi_c(r,\phi)$$
+
+Donde:
+$$G_1(r)=\sum_{m=1}^{\infty} D_{nm} J_n(\lambda_{nm}r)$$ 
+$$G_2(r)=\sum_{m=1}^{\infty} E_{nm} J_n(\lambda_{nm}r)$$
+\begin{equation*}
+\begin{split}
+&G_1=\frac{1}{\pi}\int_0^{2\pi} cos(n\phi)[g-\Psi_c]d\phi\\
+&G_2=\frac{1}{\pi}\int_0^{2\pi} sin(n\phi)[g-\Psi_c]d\phi
+\end{split}
+\end{equation*}
+Por ende,
+\begin{equation}
+\begin{split}
+D_{nm}&=\frac{\left< \frac{1}{\pi} \int_{0}^{2\pi} cos(n\phi)[g-\Psi_c]d\phi | J_n(\lambda_{nm}r) \right> }{\langle J_n(\lambda_{nm}r) | J_n(\lambda_{nm}r) \rangle} = \frac{\frac{1}{\pi} \int_0^a \int_0^{2\pi} cos(n\phi)[g-\Psi_c] J_n(\lambda_{nm}r) drd\phi }{\int_0^a [J_n(\lambda_{nm}r)]^2 rdr }\\
+&=\frac{\frac{1}{\pi} \int_0^a \int_0^{2\pi} cos(n\phi)[g-\Psi_c] J_n(\lambda_{nm}r) drd\phi }{ \frac{1}{2}a^2 J_{n+1}^2 (\lambda_{nm}a) }
+\end{split}
+\end{equation}
+\begin{tcolorbox}
+$$\therefore D_{nm}=\frac{2}{\pi a^2 J_{n+1}^2 (\lambda_{nm}a)} \int_0^a \int_0^{2\pi} cos(n\phi)[g-\Psi_c] J_n(\lambda_{nm}r) drd\phi $$
+\end{tcolorbox}
+
+\begin{equation}
+\begin{split}
+E_{nm}&=\frac{\left< \frac{1}{\pi} \int_{0}^{2\pi} sin(n\phi)[g-\Psi_c]d\phi | J_n(\lambda_{nm}r) \right> }{\langle J_n(\lambda_{nm}r) | J_n(\lambda_{nm}r) \rangle} = \frac{\frac{1}{\pi} \int_0^a \int_0^{2\pi} sin(n\phi)[g-\Psi_c] J_n(\lambda_{nm}r) drd\phi }{\int_0^a [J_n(\lambda_{nm}r)]^2 rdr }\\
+&=\frac{\frac{1}{\pi} \int_0^a \int_0^{2\pi} sin(n\phi)[g-\Psi_c] J_n(\lambda_{nm}r) drd\phi }{ \frac{1}{2}a^2 J_{n+1}^2 (\lambda_{nm}a) }
+\end{split}
+\end{equation}
+\begin{tcolorbox}
+$$\therefore E_{nm}=\frac{2}{\pi a^2 J_{n+1}^2 (\lambda_{nm}a)} \int_0^a \int_0^{2\pi} sin(n\phi)[g-\Psi_c] J_n(\lambda_{nm}r) drd\phi $$
+\end{tcolorbox}
+%----------------------------------------------------------------------------------------
+
+\end{document}

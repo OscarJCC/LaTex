@@ -1,0 +1,11 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Problema 1:}{2}{section.1}%
+\contentsline {section}{\numberline {2}Problema 2:}{2}{section.2}%
+\contentsline {section}{\numberline {3}Problema 3:}{3}{section.3}%
+\contentsline {section}{\numberline {4}Problema 4:}{3}{section.4}%
+\contentsline {section}{\numberline {5}Problema 5:}{3}{section.5}%
+\contentsline {section}{\numberline {6}Problema 6:}{3}{section.6}%
+\contentsline {section}{\numberline {7}Problema 7:}{3}{section.7}%
+\contentsline {section}{\numberline {8}Problema 8:}{3}{section.8}%
+\contentsline {section}{\numberline {9}Problema 9:}{3}{section.9}%
+\contentsline {section}{\numberline {10}Problema 10:}{3}{section.10}%

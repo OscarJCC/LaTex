@@ -1,0 +1,150 @@
+\documentclass[12pt]{article}
+	
+%______________________PREAMBULO_________________________
+
+%----------------------Paquetes--------------------------
+\usepackage{amsmath,amssymb,amsfonts,latexsym,cancel} % Paquetes de símbolos adicionales.
+\usepackage[spanish,es-tabla]{babel} % Idioma español
+\usepackage[utf8]{inputenc} % Paquete que nos permite usar los acentos y otros símbolos, directamente del teclado.
+\usepackage[T1]{fontenc} % Cambia el tipo de letra
+\usepackage{times} % Tipo de letra Times New Roman
+\usepackage{graphicx} % Paquete para el manejo de gráficos y figuras en el documento.
+\usepackage{geometry} % Permite el manejo de los margenes
+\usepackage{fancyhdr} % Permite colocar y manejar el encabezado
+\usepackage[breaklinks,colorlinks=true,linkcolor=black,citecolor=blue, urlcolor=blue]{hyperref} % Crea hipervinculo entre secciones y el indice
+\usepackage{pstricks}
+%\usepackage{multicol}
+%\usepackage{mathpazo} %fuente palatino
+%\usepackage{xcolor}
+%\usepackage[shortlabels]{enumitem}
+%-------------Paquetes para el formato de las citas-------
+%\usepackage[hyphens]{url}
+%\usepackage{float}
+%\usepackage{cite}
+%\usepackage{wrapfig}
+
+%-----------------------------ayuda de paquetes--------------------
+
+\spanishdecimal{.}
+
+%------------------------Margenes----------------------------
+
+\newgeometry{bottom = 2.5 cm, top = 2.5 cm, left = 2 cm, right = 2 cm} % Modifica el margen {Abajo, Arriba, Izquierda, Derecha
+
+%----------------------------Interlineado----------------------------------
+
+%\doublespacing
+%\onehalfspace
+%\singlespace
+%\spacing{1.5} % Permite personalisar a gusto
+%\setlength{\parskip}{2cm} % Es el espacio entre parrafos
+
+%-----------------------------Sangria---------------------------------------
+
+\setlength{\parindent}{0 cm} % Manipula la sangria
+
+%---------------------Portada------------------
+
+%\title{
+%\begin{figure}[h!]
+		
+%	\centering
+%	\includegraphics[width=\linewidth]{Nom_UAdeC_FCFM.png}  			
+			
+%\end{figure}
+%\huge \textbf{LABORATORIO DE FISICA 3}\\\LARGE TITULO PRACTICA\\}
+%\author{ \Large \textbf{Profesor:}\\
+%\Large \textbf{Alumno:} Oscar Joel Castro Contreras}
+%\date{\today}
+
+%--------------Encabezado y pie de pagina--------------------
+
+\pagestyle{fancy}%Coloca el encabezado en el documento
+\lhead[]{Física 3}%Encabezado izquierda
+\rhead[]{Oscar Joel Castro Contreras}%Encabesado derecha
+%\chead[]{}%Encabesado central
+\renewcommand{\headrulewidth}{0.08 pt}%Coloca linea al pie de pagina
+
+%\lfoot[]{PI}%Pie de pagina izquerdo
+%\rfoot[]{PD}%Pie de pagina derecho
+\cfoot[]{\thepage}%Pie de pagina central
+\renewcommand{\footrulewidth}{0.08 pt}%Coloca linea al pie de pagina
+
+%-----------------------------------------------------------------------------
+
+	\begin{document}
+		
+		\begin{titlepage}
+		
+			\centering
+			{\bfseries
+			\begin{figure}[h!]
+				\centering
+				\includegraphics[width=\linewidth]{Nom_UAdeC_FCFM.png} 				
+			\end{figure}
+			\par}
+			\vspace{2cm}
+			{\scshape\LARGE FÍSICA 3 \par}
+			\vspace{3cm}
+			{\scshape\Huge \textbf{Tarea 2 - Ley de Gauss} \par}
+			\vfill
+			{\LARGE \textbf{Profesora:} Ricardo Pérez Martinez \par}
+			\vspace{3cm}
+			{\LARGE \textbf{Alumno:} Oscar Joel Castro Contreras \par}
+			\vfill
+			{\Large \today \par}
+			\thispagestyle{empty}
+			%\thispagestyle{fancy}
+			
+		\end{titlepage}
+	
+		\newpage
+		
+		\tableofcontents		
+		
+		\newpage
+		
+		\section*{Formulas:}\label{sec:Formulas}
+			$$ k_e = 8.99 \times 10^9 \frac{Nm^2}{C^2} \quad \epsilon_0 = 8.8542 \times 10^{-12} \frac{C^2}{Nm^2} $$
+			$$ \rho = \frac{Q}{V}, \quad \sigma = \frac{Q}{A}, \quad \lambda = \frac{Q}{L} $$
+			$$ dq = \rho dV, \quad dq = \sigma dA, \quad dq = \lambda dL $$
+			\begin{align}
+
+			\end{align}
+
+		\section{Problema 1:}\label{sec:Problema1}
+			Sobre la superficie de una coraza esférica aislante de radio $ R $, está distribuida con
+			uniformidad una carga negativa $ -Q $. Calcula la fuerza (magnitud y dirección) que
+			ejerce la coraza sobre una carga puntual positiva $ q $ ubicada a una distancia:
+			\begin{enumerate}
+				\item[a)] $ r > R $ del centro de la coraza (fuera de la coraza).
+				\item[b)] $ r < R $ del centro de la coraza (dentro de la coraza).
+			\end{enumerate}
+
+		\section{Problema 2:}\label{sec:Problema2}
+			Un conductor cílindrico de longitud infinita tiene un radio $ R $ y densidad superficial
+			de carga uniforme. a) En terminos de  y R. >cual es la carga por unidad de
+			longitud  para el cilindro?, b) en terminos de , >cual es la magnitud del campo
+			electrico producido por el cilindro con carga a una distancia r > R de su eje?,
+			c) expresa el resultado del enciso b) en terminos de  y demuestra que el campo
+			electrico fuera del cilindro es el mismo que si toda la carga estuviera sobre el eje.
+			Compara tu resultado con el que se obtuvo en clase para una lnea innita de carga.
+
+
+		\section{Problema 3:}\label{sec:Problema3}
+
+		\section{Problema 4:}\label{sec:Problema4}
+
+		\section{Problema 5:}\label{sec:Problema5}
+
+		\section{Problema 6:}\label{sec:Problema6}
+			
+		\section{Problema 7:}\label{sec:Problema7}
+
+		\section{Problema 8:}\label{sec:Problema8}
+
+		\section{Problema 9:}\label{sec:Problema9}
+
+		\section{Problema 10:}\label{sec:Problema10}
+
+	\end{document}

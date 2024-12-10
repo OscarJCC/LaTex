@@ -1,0 +1,10 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introduccion}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Antecedentes}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Algo aqui}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Autores}{2}{}%
+\contentsline {section}{\numberline {2}Metodologia}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Metodo}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Modelo matematico}{2}{}%
+\contentsline {section}{\numberline {3}Resultados}{2}{}%
+\contentsline {subsection}{\numberline {3.1}resultados mas}{2}{}%

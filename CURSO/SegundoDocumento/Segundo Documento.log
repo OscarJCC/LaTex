@@ -1,0 +1,218 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.30)  12 AUG 2021 20:24
+entering extended mode
+**"./Segundo Documento.tex"
+(Segundo Documento.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 <
+     \documentclass[11pt,letter]{article} %article,report,book
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no < in font nullfont!
+(C:\Program Files\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
+(C:\Program Files\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--274
+[]
+ []
+
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+[1{C:/Users/HP/AppData/Local/MiKTeX/pdftex/config/pdftex.map}])
+(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+)
+(C:\Users\HP\AppData\Roaming\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count190
+\float@exts=\toks18
+\float@box=\box50
+\@float@everytoks=\toks19
+\@floatcapt=\box51
+)
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2021/06/02 3.60 The Babel package
+
+(C:\Program Files\MiKTeX\tex/generic/babel\babel.def
+File: babel.def 2021/06/02 3.60 Babel common definitions
+\babel@savecnt=\count191
+\U@D=\dimen139
+\l@unhyphenated=\language79
+
+(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count192
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\HP\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks20
+\es@quotdepth=\count193
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+))
+(C:\Users\HP\AppData\Roaming\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box52
+)
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box53
+)
+
+LaTeX Warning: Unused global option(s):
+    [letter].
+
+No file "Segundo Documento".aux.
+\openout1 = `"Segundo Documento.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Info: Redefining \. on input line 28.
+LaTeX Info: Redefining \% on input line 28.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 30.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 40.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 51.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 6
+6.
+(C:\Program Files\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 66.
+
+Overfull \hbox (82.10606pt too wide) in paragraph at lines 65--76
+ [][] 
+ []
+
+[2
+
+]
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 12
+1.
+ (C:\Program Files\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+) [3]
+Overfull \hbox (140.13583pt too wide) in paragraph at lines 139--139
+[]          \OT1/cmtt/m/n/10.95 Las comillas < < dobles > > o < < francesas > >
+ difieren de las ''inglesas'',[] 
+ []
+
+
+Overfull \hbox (186.12534pt too wide) in paragraph at lines 139--139
+[]          \OT1/cmtt/m/n/10.95 o las comillas 'simples'. Los guiones pueden se
+r -cortos-, --medios-- o ---largos---,[] 
+ []
+
+
+Overfull \hbox (145.88452pt too wide) in paragraph at lines 139--139
+[]          \OT1/cmtt/m/n/10.95 y los puntos suspensivos ... a veces son mas c
+ortos y a veces mas largos \dots[] 
+ []
+
+
+Overfull \hbox (180.37665pt too wide) in paragraph at lines 139--139
+[]          \OT1/cmtt/m/n/10.95 Hay infinidad de smbolos adicionales que no e
+s necesario aprender, como \copyright,[] 
+ []
+
+
+Overfull \hbox (168.87927pt too wide) in paragraph at lines 139--139
+[]          \OT1/cmtt/m/n/10.95 los ordinales 1\textsuperscript{a}, 3\textsuper
+script{er}, 34\textsuperscript{o} o[] 
+ []
+
+
+Overfull \hbox (180.37665pt too wide) in paragraph at lines 139--139
+[]          \OT1/cmtt/m/n/10.95 el smbolo del euro \euro, para el que es nece
+sario el uso del paquete {\bf eurosym}[] 
+ []
+
+[4] (Segundo Documento.aux
+LaTeX Info: Redefining \. on input line 8.
+LaTeX Info: Redefining \% on input line 8.
+)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1832 strings out of 478864
+ 27421 string characters out of 2858526
+ 349215 words of memory out of 3000000
+ 19785 multiletter control sequences out of 15000+600000
+ 410296 words of font info for 51 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 40i,13n,52p,249b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\HP\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm109
+5.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pro
+gram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Pr
+ogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb><C:/Users/HP/AppData/Roaming/MiKTeX/fonts/type1/public/e
+urosym/feymr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfon
+t/lasy10.pfb>
+Output written on "Segundo Documento.pdf" (4 pages, 164088 bytes).
+PDF statistics:
+ 86 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

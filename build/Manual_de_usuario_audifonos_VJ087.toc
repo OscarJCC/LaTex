@@ -1,0 +1,22 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Descripción del producto:}{2}{}%
+\contentsline {section}{\numberline {2}Caracteristicas de funcionamiento:}{2}{}%
+\contentsline {subsection}{\numberline {2.1}Juego inalambrico}{2}{}%
+\contentsline {subsection}{\numberline {2.2}Llamada manos libres}{2}{}%
+\contentsline {subsection}{\numberline {2.3}Funcion de emparejamiento multiple}{2}{}%
+\contentsline {subsection}{\numberline {2.4}Aviso de voz de llamada proximas}{2}{}%
+\contentsline {subsection}{\numberline {2.5}Pantalla de bateria IOS}{2}{}%
+\contentsline {subsection}{\numberline {2.6}Apagado inteligente}{2}{}%
+\contentsline {subsection}{\numberline {2.7}Entrada de audio}{2}{}%
+\contentsline {subsection}{\numberline {2.8}Bateria de litio recargable}{2}{}%
+\contentsline {subsection}{\numberline {2.9}Carga inteligente}{2}{}%
+\contentsline {section}{\numberline {3}Definicion de funcion de los botones y la ranura del producto:}{2}{}%
+\contentsline {subsection}{\numberline {3.1}1) \triangleright \parallel }{2}{}%
+\contentsline {subsection}{\numberline {3.2}2) \triangleright \triangleright \mid }{2}{}%
+\contentsline {subsection}{\numberline {3.3}3) \mid \triangleleft \triangleleft }{2}{}%
+\contentsline {subsection}{\numberline {3.4}4) +}{2}{}%
+\contentsline {subsection}{\numberline {3.5}5) -}{2}{}%
+\contentsline {subsection}{\numberline {3.6}6) Puertos de carga micro USB}{2}{}%
+\contentsline {subsection}{\numberline {3.7}7) Puertos de entrada de audio}{2}{}%
+\contentsline {subsection}{\numberline {3.8}8) Microfono incorporado}{2}{}%
+\contentsline {subsection}{\numberline {3.9}9) Lampara indicadora de estado}{2}{}%

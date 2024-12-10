@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{RUNGE KUTTA}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Ejercicio}{9}{0}{1}
+\beamer@subsubsectionintoc {1}{1}{1}{Solucion exacta:}{11}{0}{1}
+\beamer@sectionintoc {2}{SPLINES}{12}{0}{2}
+\beamer@sectionintoc {3}{SIMPSON}{18}{0}{3}
+\beamer@sectionintoc {4}{Referencias}{25}{0}{4}

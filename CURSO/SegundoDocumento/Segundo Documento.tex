@@ -1,0 +1,141 @@
+<\documentclass[11pt,letter]{article} %article,report,book
+
+
+     % --- inicia preambulo ----------
+
+          % --- Paquetes -------------
+
+          \usepackage[utf8]{inputenc} % Opciones encodig: utf8, latin1
+          %\texttt{\usepackage{amsmath,amssymb,amsfonts,latexsym}}
+          %\usepackage{graphicx}
+          \usepackage{float}
+          \usepackage[spanish]{babel}
+          \usepackage{eurosym}
+
+
+         % \usepackage[total={18cm,21cm},top=2cm,left=2cm]{geometry}
+          %\usepackage[a4paper,total={6.5in,8.75in},top=1.2in,left=0.9in,includefoot]{geometry}
+
+          % --- Fin de paquetes ------
+
+
+     \title{Segundo docuemtno de LaTex}
+     \author{Oscar Joel Castro Contreras}
+     \date{\today}
+
+     % --- fin preambulo -------------
+
+     \begin{document}
+
+          \maketitle %Coloca lo que esta en el preambulo
+
+          %\newpage %Crea un pagina
+
+          %\tableofcontents %Crea un indice
+
+          %\newpage
+
+          \begin{abstract}
+          A continuación se presenta un documento con características 
+          de edición en \LaTeX, éste servirá como ejemplo para introducir 
+          algunos comando básicos, sin embargo estos ejemplos y parte 
+          del contenido fueron obtenidos del documento llamado 
+          \textbf{Herramientas Informáticas de las Matemáticas e Ingeniería} 
+          cuyo autor es \textit{Ernesto Aranda Ortega}.
+          \end{abstract}
+
+          \section{Aspectos Generales}
+          \label{sec:aspgenerales} %etiqueta para hacer referencia a la seccion
+
+          Los aspectos generales son la base para comprender la filosofía 
+          de edición en \LaTeX, tal vez esto es principalmente uno de 
+          los primeros pasos complicados del lenguaje. Sin embargo con 
+          la práctica continua, es casi seguro que sin darse cuenta 
+          el programador (editor) en un cierto tiempo escribirá de manera 
+          automática muchos de estos aspecto.
+
+          \subsection{Caracteres especiales} 
+          \label{sec:caracteresesp}
+
+          Los siguientes caracteres tiene un significado especial para 
+          el compilador \TeX:
+
+          \begin{table}
+               \centering
+               \begin{tabular}{cl}
+                    \textbackslash   & Carácter inicial de los comandos \TeX, por ejemplo, \verb|\alpha| , \verb|\section| , \verb|\bf| , etc. \\
+                         \verb|\$|  & \$ Delimitador del modo matemático. \\
+                         \verb|\%|  & \% \\
+                         \verb|\^{}|  & \^{} Carácter de pueríndice en modo matemático.\\
+                         \verb| \_|  & \_ Carácter de subíndice en el modo matemático. \\
+                         \verb|\{|  & \{ Apertura de delimitador. \\
+                         \verb| \}|  & \}  Cierre de delimitador. \\
+                         \verb|\~|  & \~{} \\
+                         \verb|\#|  & \# \\
+               \end{tabular}
+               \caption{Caracteres especiales que se deben tener encuenta. Fuente: Elaboración propia.}
+          \end{table}
+
+          \subsection{Ordenes en \LaTeX}
+          \label{sec:ordenes}
+
+          Las órdenes en \LaTeX{} son sensibles a mayúsculas y comienzan 
+          con una retrobarra \ y tienen un nombre con puras letras. 
+          Si quieres un espacio en blanco después de una orden, se tiene 
+          que poner \{ \} despues de la orden o una orden especial de espaciado.
+
+          \subsection{Acentos}
+          \label{sec:acentos}
+
+          El fichero fuente de \LaTeX{} sólo reconoce caracteres del alfabeto 
+          inglés. Para escribir acentos tenemos dos opciones:
+
+          \begin{itemize}
+          \item Uso de comandos que producen acentos y letras no inglesas.
+               \begin{table}[H]
+                    \centering
+                    \begin{tabular}{c|c}
+                         \hline
+                         \verb|\'a| $\rightarrow $ á   & \verb|\'e| $\rightarrow $ é \\
+                         \verb|\'\i| $\rightarrow $ í   & \verb|\'e| $\rightarrow $ é \\
+                         \verb|\'A| $\rightarrow $ Á   & \verb|\'E| $\rightarrow $ É \\
+                         \verb|\'o| $\rightarrow $ ó   & \verb|\"o| $\rightarrow $ \"o \\
+                         \verb|\c{c}| $\rightarrow $ \c{c}   & \verb|\c{C}| $\rightarrow $ \c{C} \\
+                         \verb|\`e| $\rightarrow $ \`e   & \verb|\v o| $\rightarrow $ \v o \\
+                         \verb|\~n| $\rightarrow $ \~n   & \verb|\~N| $\rightarrow $ \~N \\
+                         \verb|?`| $\rightarrow $ ?`   & \verb|!`| !` $\rightarrow $ é \\
+                         \hline
+                    \end{tabular}
+                    \caption{Acentos en \LaTeX. Fuente: Elaboración propia}
+                    \label{tab:acentos}
+               \end{table}
+          \item Uso del paquete \verb|\usepackage [latin1]{inputenc}|
+          \end{itemize}
+
+          \subsection{Otro símbolos}
+          \label{sec:otrossimbolos}
+
+          El uso de comillas dobles, simples, guiones, ordinales, puntos 
+          suspensivos y otros símbolos está ilustrado en el siguiente texto.
+
+          Las comillas < < dobles > > o < < francesas > > difieren de las 
+          ''inglesas'', o las comillas 'simples'. Los guiones pueden ser -cortos-, 
+          --medios-- o ---largos---, y los puntos suspensivos ... a veces son más 
+          cortos y a veces más largos \dots Hay infinidad de símbolos adicionales 
+          que no es necesario aprender, como \copyright, los ordinales 1\textsuperscript{a}, 
+          3\textsuperscript{er}, 34\textsuperscript{o} o el símbolo del euro \euro, 
+          para el que es necesario el uso del paquete {\bf eurosym}
+
+          El parrafo anterior se ha generado con:
+
+          \begin{verbatim}
+          Las comillas < < dobles > > o < < francesas > > difieren de las ''inglesas'',
+          o las comillas 'simples'. Los guiones pueden ser -cortos-, --medios-- o ---largos---,
+          y los puntos suspensivos ... a veces son más cortos y a veces más largos \dots
+          Hay infinidad de símbolos adicionales que no es necesario aprender, como \copyright,
+          los ordinales 1\textsuperscript{a}, 3\textsuperscript{er}, 34\textsuperscript{o} o 
+          el símbolo del euro \euro, para el que es necesario el uso del paquete {\bf eurosym}
+
+          \end{verbatim}
+
+     \end{document}

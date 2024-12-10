@@ -1,0 +1,335 @@
+\documentclass[11pt,letter]{article} %article,report,book
+
+% --- Inicia Preámbulo --------------------------------------
+
+% ------ Margenes -------------------------------------------
+
+%\textheight    = 21cm
+%\textwidth     = 18cm
+%\topmargin     = -2cm
+%\oddsidemargin = -2cm
+
+% ------ Fin Margenes ---------------------------------------
+
+% ------ Paquetes -------------------------------------------
+
+%\usepackage[utf8]{inputenc} % Opciones encodig: utf8, latin1
+%\texttt{\usepackage{amsmath,amssymb,amsfonts,latexsym}
+%\usepackage{graphicx}
+%\usepackage{float}
+%\usepackage[spanish]{babel}
+%\usepackage{eurosym}
+
+
+% \usepackage[total={18cm,21cm},top=2cm,left=2cm]{geometry}
+% \usepackage[a4paper,total={6.5in,8.75in},top=1.2in,left=0.9in,includefoot]{geometry}
+
+% ------ Fin Paquetes ---------------------------------------
+
+\title{Edición de Texto}
+\author{Autor}
+\date{\today}
+% --- Fin Preámbulo -----------------------------------------
+
+\begin{document}
+%
+\maketitle
+%
+%\newpage
+%
+%\tableofcontents
+%
+%\newpage
+%
+\begin{abstract}
+  A continuación se presenta un documento con características de edición en \LaTeX, éste servirá como ejemplo para intoducir algunos comando básicos, sin embargo estos ejemplos y parte del contenido fueron obtenidos del documento llamado \textbf{Herramientas Informáticas de las Matemáticas e Ingeniería} cuyo autor es \textit{Ernesto Aranda Ortega}.
+\end{abstract}
+%
+%
+\section{Aspectos Generales}
+\label{sec:aspgenerales}
+%
+Los aspectos generales son la base para comprender la filosofía de edición en \LaTeX, tal vez esto es principalmente uno de los primeros pasos complicados del lenguaje. Sin embargo con la práctica continua, es casi seguro que sin darse cuenta el programador (editor) en un cierto tiempo escribirá de manera automática muchos de estos aspecto.
+%
+\subsection{Caracteres especiales}
+\label{sec:caracteresesp}
+
+Los siguientes caracteres tiene un significado especial para el compilador \TeX:
+
+\begin{table}[H]
+  \centering
+  \begin{tabular}{cl}
+    \textbackslash   & Carácter inicial de los comandos \TeX, por ejemplo, \verb|\alpha| , \verb|\section| , \verb|\bf| , etc. \\
+    \verb|\$|  & \$ Delimitador del modo matemático. \\
+    \verb|\%|  & \% \\
+    \verb|\^{}|  & \^{} Carácter de pueríndice en modo matemático.\\
+    \verb| \_|  & \_ Carácter de subíndice en el modo matemático. \\
+    \verb|\{|  & \{ Apertura de delimitador. \\
+    \verb| \}|  & \}  Cierre de delimitador. \\
+    \verb|\~|  & \~{} \\
+    \verb|\#|  & \# \\
+  \end{tabular}
+  \caption{Caracteres especiales que se deben tener encuenta. Fuente: Elaboración propia.}
+\end{table}
+
+
+\subsection{Ordenes en \LaTeX}
+%\label{sec:ordenes}
+%
+%Las órdenes en \LaTeX{} son sensibles a mayúsculas y comienzan con una retrobarra \ y tienen un nombre con puras letras. Si quieres un espacio en blanco después de una orden, se tiene que poner \{ \} despues de la orden o una orden especial de espaciado.
+%
+%
+%
+%\subsection{Acentos}
+%\label{sec:acentos}
+%
+%El fichero fuente de \LaTeX{} sólo reconoce caracteres del alfabeto inglés. Para escribir acentos tenemos dos opciones:
+%
+%
+%\begin{itemize}
+%\item Uso de comandos que producen acentos y letras no inglesas.
+%  \begin{table}[H]
+%    \centering
+%    \begin{tabular}{c|c}
+%      \hline
+%      \verb|\'a| $\rightarrow $ á   & \verb|\'e| $\rightarrow $ é \\
+%      \verb|\'\i| $\rightarrow $ í   & \verb|\'e| $\rightarrow $ é \\
+%      \verb|\'A| $\rightarrow $ Á   & \verb|\'E| $\rightarrow $ É \\
+%      \verb|\'o| $\rightarrow $ ó   & \verb|\"o| $\rightarrow $ \"o \\
+%      \verb|\c{c}| $\rightarrow $ \c{c}   & \verb|\c{C}| $\rightarrow $ \c{C} \\
+%      \verb|\`e| $\rightarrow $ \`e   & \verb|\v o| $\rightarrow $ \v o \\
+%      \verb|\~n| $\rightarrow $ \~n   & \verb|\~N| $\rightarrow $ \~N \\
+%      \verb|?`| $\rightarrow $ ?`   & \verb|!`| !` $\rightarrow $ é \\
+%      \hline
+%    \end{tabular}
+%    \caption{Acentos en \LaTeX. Fuente: Elaboración propia}
+%    \label{tab:acentos}
+%  \end{table}
+%\item Uso del paquete \verb|\usepackage [latin1]{inputenc}|
+%\end{itemize}
+%
+\subsection{Otro símbolos}
+%\label{sec:otrossimbolos}
+%
+%El uso de comillas dobles, simples, guiones, ordinales, puntos suspensivos y otros símbolos está ilustrado en el siguiente texto.
+%
+%Las comillas < < dobles > > o < < francesas > > difieren de las ''inglesas'', o las comillas 'simples'. Los guiones pueden ser -cortos-, --medios-- o ---largos---, y los puntos suspensivos ... a veces son más cortos y a veces más largos \dots Hay infinidad de símbolos adicionales que no es necesario aprender, como \copyright, los ordinales 1\textsuperscript{a}, 3\textsuperscript{er}, 34\textsuperscript{o} o el símbolo del euro \euro, para el que es necesario el uso del paquete {\bf eurosym}
+%
+%El parrafo anterior se ha generado con:
+%
+%\begin{verbatim}
+%Las comillas < < dobles > > o < < francesas > > difieren de las ''inglesas'',
+%o las comillas 'simples'. Los guiones pueden ser -cortos-, --medios-- o ---largos---,
+%y los puntos suspensivos ... a veces son más cortos y a veces más largos \dots
+%Hay infinidad de símbolos adicionales que no es necesario aprender, como \copyright,
+%los ordinales 1\textsuperscript{a}, 3\textsuperscript{er}, 34\textsuperscript{o} o 
+%el símbolo del euro \euro, para el que es necesario el uso del paquete {\bf eurosym}
+%
+%\end{verbatim}
+%
+%\section{Tipos}
+%\label{sec:tipos}
+%
+%\LaTeX elige el tipo y tamaño de las fuentes usadas según una estructura lógica. Para cambiar directamente se pueden usar las instrucciones siguientes:
+%
+%\begin{table}[H]
+%  \centering
+%  \begin{tabular}{lcc}
+%    \hline
+%    Comando & Tipo & Abreviación \\
+%    \hline
+%    \verb|\textrm{texto}| & \textrm{Letra redonda} & \verb|\rm| \\
+%    \verb|\textit{texto}| & \textit{Letra itálica} & \verb|\it| \\
+%    \verb|\texttt{texto}| & \texttt{Máquina de escribir} & \verb|\tt| \\
+%    \verb|\textbf{texto}| & \textbf{Letra negrita} & \verb|\bf| \\
+%    \verb|\textsf{texto}| & \textsf{Otro estilo} & \verb|\sf| \\
+%    \verb|\textsc{texto}| & \textsc{Letra versalita} & \verb|\sc| \\ 
+%    \hline
+%  \end{tabular}
+%  \caption{Tipos de fuente en \LaTeX. Funete: Elaboracón propia.}
+%\end{table}
+%
+%
+%\subsection{Tamaños}
+%\label{sec:tamanos}
+%
+%
+%\begin{table}[H]
+%  \centering
+%  \begin{tabular}{lc}
+%    \hline
+%    Comando & Tamaño  \\
+%    \hline
+%    \verb|\normalsize| & {\normalsize Letra normal} \\
+%    \verb|\small| & {\small Letra pequeña} \\
+%    \verb|\footnotesize| & {\footnotesize Letra más pequeña} \\
+%    \verb|\scriptsize| & {\scriptsize Letra muy pequeña} \\
+%    \verb|\tiny| & {\tiny Letra muy muy pequeña} \\
+%    \verb|\large| & {\large Letra versalita} \\
+%    \verb|\Large| & {\Large Letra más grande} \\
+%    \verb|\LARGE| & {\LARGE Letra muy grande} \\
+%    \verb|\huge| & {\huge Letra enorme} \\
+%    \verb|\Huge| & {\Huge La más grande} \\
+%    \hline
+%  \end{tabular}
+%  \caption{Tamaños de fuente en \LaTeX. Funete: Elaboracón propia.}
+%\end{table}
+%
+%
+%\section{Entornos}
+%\label{sec:entornos}
+%
+%Los entornos o ambientes tienen la siguiente estructura.
+%
+%\begin{verbatim}
+%\begin{nombre entorno}
+%   texto
+%\end{nombre entorno}
+%\end{verbatim}
+%
+%\subsection{Listas}
+%\label{sec:listas}
+%
+%Lista no numerada:
+%
+%\begin{itemize}
+%\item Primer Semestre.
+%\item Segundo Semestre.
+%\item Tercer Semestre.
+%\end{itemize}
+%
+%Podemos cambiar la biñeta haciendo lo siguiente:
+%
+%\begin{itemize}
+%\item[+] Suma
+%\item[-] Resta
+%\item[*] Asterisco
+%\end{itemize}
+%
+%
+%Listas numeradas:
+%
+%\begin{enumerate}
+%\item Item 1
+%\item Item 2
+%\item Item 3
+%\end{enumerate}
+%
+%Listas descriptivas
+%
+%\begin{description}
+%\item[Paso 1] Crear las variables.
+%\item[Paso 2] Inicializar las variables.
+%\item[Paso 3] Usar la función.
+%\end{description}
+%
+%
+%\subsection{Alineación de texto}
+%\label{sec:alintexto}
+%
+%Los entornos flushleft y flushright generan párrafos alineados a la izquierda y a la derecha respectivamente.
+%
+%\begin{flushleft}
+%Este texto está alineado a
+%la izquierda
+%\end{flushleft}
+%
+%\begin{flushright}
+%Este texto está alineado a
+%la derecha
+%\end{flushright}
+%
+%
+%\begin{center}
+%Y este texto está centrado
+%\end{center}
+%
+%
+%
+%\subsection{Tablas}
+%\label{sec:tablas}
+%
+%El entorno tabular es utilizado para componer tablas con líneas opcionales horizontales o verticales. \LaTeX{} determina el ancho de las columnas automáticamente.
+%
+%\begin{verbatim}
+%\begin{tabular}{alineación}
+%\end{verbatim}
+%
+%El argumento alineación de la orden anterior, define el formato de la tabla. Se utiliza la letra l para que la columna de texto sea alineada a la izquierda, la letra r para alinear el texto a la derecha y la letra c para centrar el texto,| pone una línea vertical en la tabla. Para poder saltar a la columna siguiente se utilisa el símbolo \&. Es necesario dar un salto de línea al terminar de componer cada renglon de la tabla utilizando \textbackslash \textbackslash. En el siguiente ejemplo se muestran los argumentos anteriores.
+%
+%\vspace{0.5cm}
+%
+%\begin{tabular}{ccc}
+%  Texto 1 & Texto 2 & Texto 3 \\
+%  Texto 4 & Texto 5 & Texto 6 \\
+%\end{tabular}
+%
+%
+%\begin{flushright}
+%  \begin{tabular}{ccc}
+%  Texto 1 & Texto 2 & Texto 3 \\
+%  Texto 4 & Texto 5 & Texto 6 \\
+%\end{tabular}
+%\end{flushright}
+%
+%\begin{center}
+%  \begin{tabular}{ccc}
+%  Texto 1 & Texto 2 & Texto 3 \\
+%  Texto 4 & Texto 5 & Texto 6 \\
+%\end{tabular}
+%
+%\end{center}
+%
+%Hay veces que uno quiere poner tablas que tengan cabecera o un título. Así \LaTeX{} cuenta con la instrucción
+%
+%\verb|\multicolumn{columnas}{alineación}{texto}|
+%
+%\noindent donde columnas es el número de columnas que deseas ocupar y alineación funciona exactamente igual.
+%
+%\begin{tabular}{ccc}
+%  \hline
+%  \multicolumn{3}{c}{Título} \\
+%  \hline
+%  Texto 1 & Texto 2 & Texto 3 \\
+%  Texto 4 & Texto 5 & Texto 5 \\
+%  \hline
+%\end{tabular}
+%
+%\subsection{Imágenes}
+%\label{sec:img}
+%
+%Muchas veces para ejemplificar, explicar o ilustrar algun tema o idea, es útil el uso de figuras. \LaTeX. Cuenta con el entorno o ambiente
+%
+%\begin{verbatim}
+%\begin{figure}[colocador]
+%  Figura
+%\end{figure}
+%\end{verbatim}
+%
+%
+%La opción colocador se utiliza para decir a \LaTeX dón de se puede deslizar la figura. Se construye un colocador mediante una cadena de permisos de deslizamiento.
+%
+%Por ejemplo, una figura podría empezar con el renglón siguiente:
+%
+%\begin{verbatim}
+%\begin{figure}[!hbp]
+%\end{verbatim}
+%
+%El colocador [!hbp] permite que \LaTeX{} coloque la figura justo aquí (h) o abajo (b) en alguna página o en una página especial con dezlizante (p), y todo ello incluso si no queda tan bien (!).
+%
+%
+%\begin{description}
+%\item[h] Aquí (here) en el mismo lugar del texto donde aparece. Útil para elementos pequeños.
+%\item[t] Arriba (top) en la página.
+%\item[b] Abajo (bottom) en la página.
+%\item[p] En una página especial sólo con deslizantes.
+%  \item[!] Sin considerar la mayoría de los parámetros internos, que podrían impedir su colocación.
+%\end{description}
+%
+%\begin{thebibliography}{00}
+%\bibitem{1}{Misraim Gutiérrez, Facultad de Ciencias UNAM, Introducción a \LaTeX.}
+%\bibitem{2}{Ernesto Aranda, Departamento de Matemáticas, Herramientas Informáticas de las Matemáticas en Ingenierı́a.}
+%\end{thebibliography}
+%
+%
+%\end{document}

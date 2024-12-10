@@ -1,0 +1,211 @@
+\documentclass[12pt, letterpaper]{article} %
+
+%_____________________________PREAMBULO_______________________________
+
+%-----------------------------Paquetes--------------------------------
+
+\usepackage{amsmath,amssymb,amsfonts,latexsym} %Esta instrucción indica que en este documento se usarán paquetes de símbolos adicionales.
+\usepackage[spanish,es-tabla]{babel} % Idioma español
+\usepackage[utf8]{inputenc} % Paquete que nos permite usar los acentos y otros símbolos, directamente del teclado.
+%\usepackage[T1]{fontenc} %Cambia el tipo de letra
+\usepackage[utf8]{inputenc}%Esta instrucción se usa para incluir un paquete que nos permite usar los acentos y otros símbolos, directamente del teclado.
+\usepackage{graphicx}%Esta instrucción se usa para incluir un paquete para el manejode gráficos y figuras en el documento.
+\usepackage{geometry}%Permite el manejo de los margenes
+\usepackage{fancyhdr}%Permite colocar y manejar el encabezado
+\usepackage[breaklinks,colorlinks=true,linkcolor=black,citecolor=blue, urlcolor=blue]{hyperref} % Crea un hipervinculo de las secciones con el indice
+\usepackage{setspace} % Ayuda con el interlineado del texto, tambien se puede usar por parrafos
+\usepackage{multicol} % Ayuda a dividir el texto en distintas columnas
+
+%-----------------------------ayuda de paquetes--------------------
+
+\spanishdecimal{.} % Coloca puntos enves de comoas en un espacio matematico
+
+%-----------------------------Margenes-------------------------------------
+
+%Margen base \newgeometry{bottom = 0 cm, top = -1.5 cm, left = 0 cm, right = 0 cm}
+\newgeometry{bottom = 2.5 cm, top = 2.5 cm, left = 3 cm, right = 3 cm} %Modifica el margen {Abajo, Arriba, Izquierda, Derecha
+
+%----------------------------Interlineado----------------------------------
+
+%\doublespacing
+%\onehalfspace
+%\singlespace
+%\spacing{1.5} % Permite personalisar a gusto
+%\setlength{\parskip}{2cm} % Es el espacio entre parrafos
+
+%-----------------------------Sangria---------------------------------------
+
+\setlength{\parindent}{0 cm} % Manipula la sangria
+
+%----------------------------Portada----------------------------------
+
+%\title{MI PRIMER DOCUMENTO}% Aqui va el titulo del documento
+%\author{Oscar Joel Castro Contrera \thanks{LaTex}}% Aqui va el nombre del autor y los agradecimientos
+%\date{\today}% Esto corresponde a la fecha del dia
+
+%---------------------Encabezado y pie de pagina-------------------------------------
+
+\pagestyle{fancy}%Coloca el encabezado en el documento
+\lhead[]{\includegraphics[width=1cm]{demon.png} }%Encabezado izquierda
+\rhead[]{Nombre}%Encabesado derecha
+\chead[]{}%Encabesado central
+\renewcommand{\headrulewidth}{0.08 pt}%Coloca linea al pie de pagina
+
+\lfoot[]{PI}%Pie de pagina izquerdo
+\rfoot[]{PD}%Pie de pagina derecho
+\cfoot[]{\thepage}%Pie de pagina central y \thepage crea la enumeracion de las paguinas
+%\renewcommand{\footrulewidth}{0.08 pt}%Coloca linea al pie de pagina
+
+%-----------------------------------------------------------------------------
+
+\begin{document}% Con esta instruccion se inicia un documento
+	
+	%\maketitle % Introduce todo lo que esta fuera del \begin{document} dentro del documento
+
+	\begin{titlepage}
+		\centering
+		{\bfseries
+		\begin{figure}[h!]
+			\centering
+			\includegraphics[width=\linewidth]{Nom_UAdeC_FCFM.png}  						
+		\end{figure}
+		\par}
+		\vspace{2cm}
+		{\scshape\LARGE LABORATORIO DE FISICA 3 \par}
+		\vspace{3cm}
+		{\scshape\Huge \textbf{TÍTULO PRACTICA} \par}
+		\vfill
+		{\LARGE \textbf{Profesor:} \par}
+		\vspace{3cm}
+		{\LARGE \textbf{Alumno:} Oscar Joel Castro Contreras \par}
+		\vfill
+		{\Large \today \par}
+		\thispagestyle{empty} % Quita los Encabezados y pies de pagina y enumerado de la portada
+		%\thispagestyle{fancy} % Incluye el encabesado y el pie de paguina en la portada
+	\end{titlepage}
+     
+     \newpage % Crea una nueva pagina
+     
+     \tableofcontents % Crea un indice con las secciones y subsecciones creadas
+	
+	\newpage
+	
+     \begin{abstract}% Con esta instriccion se agrega el resumen del articulo
+     
+          Este parrafo se escribe el resumen de nuestro articulo cientifico.
+          
+     \end{abstract}
+	
+          En este documento hay algunos paquetes y parametros adicionales. Hay paquete de codificacion con parametros de tamaño de pagina y tamaño de fuente.
+		
+          Esta linea comenzara un segundo parrafo, y se puede romper una \\ las lineas \\ y continuar con 2 lineas\\\\
+		
+	\section{Negritas, Cursiva, Subrayado, etc.}\label{sec:Negritas, Cursiva, Subrayado, etc.} Crea una referencia a una seccion
+		
+          \textbf{Con esta instruccion el texto tomo el formato de negritas.}\\
+          \underline{Con esta instruccion el texto tomo el formato de subrayado.}\\
+          \textit{Con esta instruccion el texto toma el formato de cursiva.}\\
+          \textbf{\textit{En esta parte se unieron las 2 intrucciones de las anteriores.}}\\
+          \emph{Con esta instruccion el texto tambien toma el formato de cursiva.}\\\\
+
+          EJEMPLOS:\\\\
+          
+	\begin{enumerate} % este entormo enumeroa una lista
+	
+          \item Algunos de los \textbf{mayores} descubrimientos en la ciencia fueron por accidente.\\\\
+          \item Algunos de los mejores descubrimentos en la \underline{ciencia} fueron por accidente.\\\\
+          \item Algunos de los mayores \emph{descubrimientos} en la ciencia fueron por accidente.\\\\
+          \item \textit{Algunos de los mayores \emph{descubrimientos} en la ciencia fueron por accidente.}\\\\
+          \item \textbf{Algunos de los mayores \emph{descubrimientos} en laciencia fueron por accidente.}\\\\          
+          \item \textit{Algunos de los mayores \emph{descubrimientos} en laciencia fueron por accidente.}\\\\
+          
+	\end{enumerate}
+	
+	\section{Matematicas}\label{sec:Matematicas}
+		
+		\subsection{Ecuacion Cuadratica}
+	
+			$$y = x^2+5x+6$$
+		
+		\subsection{Integral}
+		
+			$$\int f(x) dx$$
+			
+		\subsection{Ecuaciones de flujo de carga electrica}
+			
+			$$ P_i =  V_i \sum_{j=1}^{n} V_j \left( G_{ij} \cos\delta_{ij}+B_{ij} \sen\delta_{ij} \right) $$
+			
+			Seguna la ecuacion PA \ref{eq:PotenciaActiva}, podemos ...............			
+			
+			\begin{equation}\label{eq:PotenciaActiva}
+				P_i =  V_i \sum_{j=1}^{n} V_j \left( G_{ij} \cos\delta_{ij}+B_{ij} \sen\delta_{ij} \right)
+			\end{equation}
+
+			\begin{equation}\label{eq:PotenciaActiv}
+				P_i =  V_i \sum_{j=1}^{n} V_j \left( G_{ij} \cos\delta_{ij}+B_{ij} \sen\delta_{ij} \right)
+			\end{equation}
+			
+		\subsection{Flechas}
+			
+			$ \rightarrow $
+			$ \longrightarrow $
+			$ \leftarrow $
+			
+		
+	\section{Imagenes}\label{sec:Imagenes}
+	
+		Comprobando seccion\ref{sec:Negritas, Cursiva, Subrayado, etc.}   \textit{figura} \ref{fig:LOGO}, referencia de imagen \ref{fig:OSCAR} % crea una referenca y un 				hipervinculo a la figura que se coloca dentro de los corchetes
+	
+		% [t] = top: Pone imagen en parte superior
+		% [b] b = bottom: Pone imagen en parte inferir
+		% [h] h = here: pone donde esta escrita
+		% [+!] +!: coloca exacto donde se escribe la imagen
+		\begin{figure}[!]
+			\centering % Centra la imagen
+			\includegraphics[width=\linewidth]{Nom_UAdeC_FCFM.png} % Coloca una imagen [width=\linewidth] coloca la imagen dentro de los margenes [scale=1] es el tamaño
+			\caption{Logo de UA de C y FCFM} % Agrega un pie de figura
+			\label{fig:LOGO} % Se le coloca un nombre para poder referenciarla
+		
+		\end{figure}
+		
+		Que loco no cren
+
+		\begin{figure}
+			\centering % Centra la imagen
+			\includegraphics[width=.5\linewidth]{OSCAR F.jpg} 
+			\caption{Fondo OSCAR} % Agrega un pie de figura
+			\label{fig:OSCAR} % 
+		
+		\end{figure}
+		
+	\section{Tablas}\label{sec:Tablas}
+
+	\begin{table}[h!]% [] igual que las imagenes
+		\centering
+		\begin{tabular}{|cc|c||c|} %{l} alineacion izquierda, {r} alineacion derecha, {c} alineacion centro
+		
+			\hline
+			Celda1 & Celda2 & Celda3 & Celda4 \\\hline
+			Celda5 & Celda6 & Celda7 & Celda8 \\\hline
+			\hline
+			\hline
+			
+		\end{tabular}
+		\caption{Tabla new}
+		\label{tab:1}
+
+	\end{table}
+	
+	Hacemos referencia a la tabla \ref{tab:1} que contiene 2 filas y 4 columnas
+	
+	segun el libro \cite{bib:item1} pasa algo......................
+	\section{Bibliografia}\label{sec:Bibliografia}
+	
+		\begin{thebibliography}{20}
+			
+			\bibitem{bib:item1} \textsc{Autores} \textit{Nombre libro}
+			\bibitem{bib:item2} \url{https://www.youtube.com/watch?v=zqXU1LOpT_8}
+
+		\end{thebibliography}
+	 
+\end{document}% Con esta instruccion se finaliza un documento
