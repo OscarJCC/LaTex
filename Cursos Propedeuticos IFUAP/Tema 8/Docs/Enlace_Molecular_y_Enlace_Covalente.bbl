@@ -1,0 +1,166 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Beiser%
+}{%
+Beiser%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+1}
+\APACinsertmetastar {%
+1}%
+\begin{APACrefauthors}%
+Beiser, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Concepts of modern physics.} {Concepts of modern physics.}\
+  (\PrintOrdinal{6}\ \BEd; M\BHBI H\BPBI H.~Education, \BED{}).
+\newblock
+\APACaddressPublisher{}{Kent A. Peterson}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cárdenas~Castaño%
+\ \BBA {} Narváez~Zamora%
+}{%
+Cárdenas~Castaño%
+\ \BBA {} Narváez~Zamora%
+}{%
+{\protect \APACyear {2018}}%
+}]{%
+6}
+\APACinsertmetastar {%
+6}%
+\begin{APACrefauthors}%
+Cárdenas~Castaño, J.%
+\BCBT {}\ \BBA {} Narváez~Zamora, L\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {El enlace covalente} {El enlace covalente}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Entornos}{31}{1}{221-228}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gillespie%
+}{%
+Gillespie%
+}{%
+{\protect \APACyear {2006}}%
+}]{%
+3}
+\APACinsertmetastar {%
+3}%
+\begin{APACrefauthors}%
+Gillespie, R\BPBI J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2006}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {El enlace químico y la geometría molecular} {El enlace
+  químico y la geometría molecular}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Educación química}{17}{4}{264-273}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Gutierrez~Chanco%
+}{%
+Gutierrez~Chanco%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+7}
+\APACinsertmetastar {%
+7}%
+\begin{APACrefauthors}%
+Gutierrez~Chanco, C\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Enlace químico} {Enlace químico}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kittel%
+}{%
+Kittel%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+2}
+\APACinsertmetastar {%
+2}%
+\begin{APACrefauthors}%
+Kittel, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Introduccion a la física del estado sólido} {Introduccion a
+  la física del estado sólido}\ (\PrintOrdinal{3}\ \BEd; S\BPBI
+  A.~Editorial~Reverté, \BED{}).
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Puppo%
+\ \BBA {} Quiroga%
+}{%
+Puppo%
+\ \BBA {} Quiroga%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+5}
+\APACinsertmetastar {%
+5}%
+\begin{APACrefauthors}%
+Puppo, C\BPBI C\BPBI F., M.~C.%
+\BCBT {}\ \BBA {} Quiroga, A\BPBI V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Enlace químico} {Enlace químico}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Simoza%
+}{%
+Simoza%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+4}
+\APACinsertmetastar {%
+4}%
+\begin{APACrefauthors}%
+Simoza, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Teoria del enlace quimico} {Teoria del enlace
+  quimico}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Colegio la salle}{}{}{1-81}.
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

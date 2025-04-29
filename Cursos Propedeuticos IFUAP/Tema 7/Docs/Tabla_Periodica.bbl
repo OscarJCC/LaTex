@@ -1,0 +1,179 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Beiser%
+}{%
+Beiser%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+1}
+\APACinsertmetastar {%
+1}%
+\begin{APACrefauthors}%
+Beiser, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2003}.
+\newblock
+\APACrefbtitle {Concepts of modern physics.} {Concepts of modern physics.}\
+  (\PrintOrdinal{6}\ \BEd; M\BHBI H\BPBI H.~Education, \BED{}).
+\newblock
+\APACaddressPublisher{}{Kent A. Peterson}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bernal%
+\ \BBA {} Railsback%
+}{%
+Bernal%
+\ \BBA {} Railsback%
+}{%
+{\protect \APACyear {2008}}%
+}]{%
+2}
+\APACinsertmetastar {%
+2}%
+\begin{APACrefauthors}%
+Bernal, J\BPBI P.%
+\BCBT {}\ \BBA {} Railsback, L\BPBI B.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2008}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Introducción a la Tabla Periódica de los Elementos y
+  sus Iones para Ciencias de la Tierra} {Introducción a la tabla periódica de
+  los elementos y sus iones para ciencias de la tierra}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Revista Mexicana de Ciencias
+  Geológicas}{25}{2}{236-246}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Contreras%
+}{%
+Contreras%
+}{%
+{\protect \APACyear {41-60}}%
+}]{%
+6}
+\APACinsertmetastar {%
+6}%
+\begin{APACrefauthors}%
+Contreras, R\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{41-60}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Tabla periódica de los elementos químicos: ciento
+  cincuenta años de historia.} {Tabla periódica de los elementos químicos:
+  ciento cincuenta años de historia.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Avances en Química}{14}{1}{}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fernández%
+\ \BBA {} Fernández%
+}{%
+Fernández%
+\ \BBA {} Fernández%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+3}
+\APACinsertmetastar {%
+3}%
+\begin{APACrefauthors}%
+Fernández, E\BPBI J.%
+\BCBT {}\ \BBA {} Fernández, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {El icono de los químicos: la tabla periódica de los
+  elementos} {El icono de los químicos: la tabla periódica de los
+  elementos}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Anales de Química de la RSEQ}{108}{4}{314-314}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+finis.cl%
+}{%
+finis.cl%
+}{%
+{\protect \APACyear {{\protect \bibnodate {}}}}%
+}]{%
+5}
+\APACinsertmetastar {%
+5}%
+\begin{APACrefauthors}%
+finis.cl.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{{\protect \bibnodate {}}}{}{}.
+\newblock
+\APACrefbtitle {PROPIEDADES PERIÓDICAS DE LOS ELEMENTOS.} {Propiedades
+  periÓdicas de los elementos.}
+\newblock
+\begin{APACrefURL}
+  \url{https://finis.cl/images/futuros_alumnos/profesores_orientadores/material-pedagogico/Guia_2_Sistema_periodico_de_los_elementos_y_enlace_quimico.pdf}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Consultado el 28 de Abril de 2025}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Rivera%
+}{%
+Rivera%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+4}
+\APACinsertmetastar {%
+4}%
+\begin{APACrefauthors}%
+Rivera, J\BPBI M\BPBI T.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Historia de la tabla periódica de los elementos
+  químicos.} {Historia de la tabla periódica de los elementos
+  químicos.}{\BBCQ}
+\newblock
+\APACjournalVolNumPages{In Anales de la Real Academia de
+  Doctores}{5}{2}{241-259}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scerri%
+}{%
+Scerri%
+}{%
+{\protect \APACyear {2025}}%
+}]{%
+7}
+\APACinsertmetastar {%
+7}%
+\begin{APACrefauthors}%
+Scerri, E\BPBI R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2025}.
+\newblock
+\APACrefbtitle {La tabla periódica Una breve introducción} {La tabla
+  periódica una breve introducción}\ (\PrintOrdinal{2}\ \BEd; S\BPBI
+  A.~Alianza~Editorial, \BED{}).
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

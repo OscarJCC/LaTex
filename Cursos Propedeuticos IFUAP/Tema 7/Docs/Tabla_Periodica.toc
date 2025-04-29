@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Antecedentes históricos}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Cronología}{1}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Antoine-Laurent de Lavoisier (1743-1794)}{1}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Jacob Berzelius (1779-1848)}{1}{subsubsection.1.2.2}%
+\contentsline {subsubsection}{\numberline {1.2.3}Joham W. Döbereiner (1780-1849)}{2}{subsubsection.1.2.3}%
+\contentsline {subsubsection}{\numberline {1.2.4}Alexandre-Emile Béguyer de Chancourtois (1820 –1886)}{2}{subsubsection.1.2.4}%
+\contentsline {subsubsection}{\numberline {1.2.5}John Alexander Reina Newlands (1837-1898)}{2}{subsubsection.1.2.5}%
+\contentsline {subsubsection}{\numberline {1.2.6}Julius Lothar Meyer (1830 – 1895)}{2}{subsubsection.1.2.6}%
+\contentsline {subsection}{\numberline {1.3}Tabla Periódica de Mendeleiev}{3}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Sistema periódico actual}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Ley periódica}{4}{subsection.1.5}%
+\contentsline {section}{\numberline {2}Desarrollo}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Estructura del sistema periódico}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Períodos}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Grupos}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Propiedades periódicas de los elementos}{7}{subsection.2.4}%
+\contentsline {section}{Referencias}{8}{section*.2}%
